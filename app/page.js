@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import Header from "./components/Header.js";
 import Home from "./components/Section.home";
 import Wanted from "./components/Section.most-wanted";
