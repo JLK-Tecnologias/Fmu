@@ -1,0 +1,5 @@
+.loading{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right top, #2c2c2c, #232323, #191919, #101010, #000000);;
+}
