@@ -27,10 +27,10 @@ export default function Header() {
 
         <nav className={classNames(styles.nav, { [styles.display]: !open })}>
           <ul>
-            <li><a href="/a" onClick={isopen}>Início</a></li>
+            <li><a href="#home" onClick={isopen}>Início</a></li>
             <li><a href="#free" onClick={isopen}>Cursos</a></li>
             <li><a href="#location" onClick={isopen}>Polos</a></li>
-            <li><a href="#contact" onClick={isopen}>Contato</a></li>
+            <li><a href="#footer" onClick={isopen}>Contato</a></li>
           </ul>
           <a className={styles.sub}>Inscreva-se</a>
         </nav>

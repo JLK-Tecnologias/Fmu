@@ -9,7 +9,7 @@ import IconFace from '../../public/face.svg'
 import IconInsta from '../../public/insta.svg'
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id='footer'>
       <Container>
         <div className={styles.footerbox}>
           <div className={styles.logo}>
@@ -36,6 +36,7 @@ export default function Footer() {
           </div>
         </div>
       </Container>
+      <div className={styles.faixa}><span>@todos os direitos reservados</span></div>
     </footer>
 
   )
