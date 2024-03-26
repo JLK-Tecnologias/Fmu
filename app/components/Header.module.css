@@ -4,6 +4,7 @@
     background-color: black;
     color: white;
     font-size: 16px;
+    z-index: 99;
 }
 
 .container {
@@ -15,7 +16,7 @@
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 200px;
 }
 
 .img {
@@ -41,12 +42,12 @@
 }
 
 .nav ul li:hover {
-    font-weight: 600;
+    scale: 1.1;
 }
 
 .sub {
     width: max-content;
-    padding: 10px 30px;
+    padding: 8px 40px;
     border-radius: 100px;
     background-color: #ff3c4615;
     outline: 1px solid red;

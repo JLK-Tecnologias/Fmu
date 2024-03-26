@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect, useRef } from 'react'
 import styles from './Header.module.css'
-import Logo from '../../public/Logo.jpg'
+import Logo from '../../public/Logo.png'
 import Image from 'next/image'
 import classNames from 'classnames'
 export default function Header() {
