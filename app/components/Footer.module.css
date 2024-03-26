@@ -1,0 +1,54 @@
+.footer{
+    background-color: black;
+    padding: 0 4%;
+}
+.footerbox{
+    display: flex;
+    padding: 30px 0;
+    align-self: center;
+}
+.logo{
+    max-width: 200px;
+    align-self: center;
+}
+.img{
+    width: 100%;
+    height: fit-content;
+}
+.box{
+    display: flex;
+    width: 100%;
+    padding: 0 4%;
+    justify-content: space-between;
+    color: white;
+}
+.box div{
+    max-width: 350px;
+    align-self: center;
+}
+.box h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+.box span{
+    font-size: 13px;
+}
+.icon{
+    display: inline-block;
+    max-width: 30px;
+    max-height: 30px;
+    margin: 0 10px;
+}
+.icon:hover{
+    scale: 1.1;
+}
+@media (max-width: 1050px){
+    .box{
+        flex-direction: column;
+    }
+    .box div{
+        margin: 30px 0;
+    }
+
+}
