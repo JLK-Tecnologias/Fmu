@@ -2,10 +2,17 @@
 import React, { useRef, useEffect } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Adm from '../../public/Administração.jpg'
+import Tec from '../../public/Tecnologia.jpg'
+import Eng from '../../public/EngenhariaCivil.jpg'
+
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import Image from 'next/image';
+
+
 
 import { Pagination } from 'swiper/modules';
 import SwiperCore, { EffectCoverflow } from 'swiper';
@@ -14,6 +21,9 @@ SwiperCore.use([EffectCoverflow]);
 import styles from "./Wanted.module.css"
 import Container from './Container';
 import classNames from 'classnames';
+
+
+
 
 export default function Wanted() {
   const swiperRef = useRef(null);
@@ -49,10 +59,13 @@ export default function Wanted() {
       swiper.off('slideChange', resizeHandler);
     };
   }, []);
+
+
   return (
     <section className={styles.wanted}>
       <Container>
         <Swiper
+          initialSlide={1}
           ref={swiperRef}
           effect="coverflow"
           grabCursor={true}
@@ -61,7 +74,7 @@ export default function Wanted() {
           slidesPerView={3}
           spaceBetween={30}
           coverflowEffect={{
-            rotate: 50,
+            rotate: 0,
             stretch: 0,
             depth: 100,
             modifier: 1,
@@ -76,19 +89,41 @@ export default function Wanted() {
             "--swiper-pagination-bullet-size": "10px",
             "--swiper-pagination-bullet-horizontal-gap": "6px",
             "--swiper-pagination-bottom": "0px",
+            
       
         }}
         >
+          <SwiperSlide className={styles.SwiperSlide}>
+             <div className={styles.imageContainer}>
+                <Image src={Adm} alt=''></Image>
+                <h1 className={styles.text}>Administração</h1>
+                <a href="#" className={styles.button}>SAIBA MAIS</a>
+             </div>
+          </SwiperSlide>
+
+          <SwiperSlide className={styles.SwiperSlide}>
+            <div className={styles.imageContainer}>
+               <Image src={Tec} alt=''></Image>
+               <h1 className={styles.text}>Tecnologia</h1>
+               <a href="#" className={styles.button}>SAIBA MAIS</a>
+            </div>
+         </SwiperSlide>
+
+          <SwiperSlide className={styles.SwiperSlide}>
+            <div className={styles.imageContainer}>
+               <Image src={Eng} alt=''></Image>
+               <h1 className={styles.text}>Engenharia Civil</h1>
+               <a href="#" className={styles.button}>SAIBA MAIS</a>
+             </div>
+          </SwiperSlide>
+          {/* <SwiperSlide className={styles.SwiperSlide}>Slide 4</SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>Slide 1</SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>Slide 2</SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>Slide 3</SwiperSlide>
-          <SwiperSlide className={styles.SwiperSlide}>Slide 4</SwiperSlide>
-          <SwiperSlide className={styles.SwiperSlide}>Slide 1</SwiperSlide>
-          <SwiperSlide className={styles.SwiperSlide}>Slide 2</SwiperSlide>
-          <SwiperSlide className={styles.SwiperSlide}>Slide 3</SwiperSlide>
-          <SwiperSlide className={styles.SwiperSlide}>Slide 4</SwiperSlide>
+          <SwiperSlide className={styles.SwiperSlide}>Slide 4</SwiperSlide> */}
         </Swiper>
       </Container>
+      
     </section>
   );
 }
