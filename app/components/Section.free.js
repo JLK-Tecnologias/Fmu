@@ -3,7 +3,7 @@ import styles from './Free.module.css'
 import Container from './Container'
 export default function Free() {
   return (
-    <section className={styles.free}>
+    <section className={styles.free} id='free'>
       <div className={styles.title}>
         <h1>Cursos disponíveis</h1>
       </div>
