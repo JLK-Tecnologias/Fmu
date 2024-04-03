@@ -1,0 +1,65 @@
+.study{
+    width: 100%;
+    background-color: #E9E9E9;
+    padding: 0 4%;
+    padding-bottom: 60px;
+}
+.title{
+    padding: 40px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+}
+.subtitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subtitle h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+.link{
+    display: block;
+    margin: 10px 0;
+    background-color: #FF3C45;
+    width: fit-content;
+    padding: 20px 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+.link:hover{
+    scale: 1.1;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.map{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.desc{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+}
+@media (max-width: 900px) {
+    .box{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .subtitle{
+        align-self: center;
+        align-items: center;
+    }
+    .map{
+       align-self: center;
+       margin: 30px 0;
+    }
+    .link{
+        margin: 40px 0;
+    }
+}

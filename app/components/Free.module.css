@@ -51,5 +51,8 @@
     .single{
         width: 90%;
     }
+    .title h1{
+        font-size: 25px
+    }
 
 }
