@@ -25,7 +25,7 @@ export default function Location() {
           <button className={currentSlide === 0 ? styles.active : ''} onClick={() => goToSlide(0)}>Cravinhos</button>
           <button className={currentSlide === 1 ? styles.active : ''} onClick={() => goToSlide(1)}>Mongagua</button>     
           <button className={currentSlide === 2 ? styles.active : ''} onClick={() => goToSlide(2)}>Peruibe</button>
-          <button className={currentSlide === 3 ? styles.active : ''} onClick={() => goToSlide(3)}>Sâo Vicente</button>     
+          <button className={currentSlide === 3 ? styles.active : ''} onClick={() => goToSlide(3)}>São Vicente</button>     
       </div>
       <Container>
         <div className={styles.box}>
