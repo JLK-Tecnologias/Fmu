@@ -1,63 +1,102 @@
-.wanted{
-    height: 850px;
-    padding: 40px 0;
+.wanted {
+  width: 100%;
+  padding-bottom: 60px;
 }
+
+.title {
+  background-color: #E9E9E9;
+  display: flex;
+  width: 100%;
+  padding: 30px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h1 {
+  font-size: 30px;
+  padding: 0 60px;
+  font-weight: 400;
+}
+
+.icon {
+  margin: 0 20px;
+}
+
 .Swiper {
-    width: 100%;
-    height: 100%;
-    padding: 40px;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
 }
 
 .SwiperSlide {
-    text-align: center;
-    font-size: 18px;
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .SwiperSlide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.imageContainer {
-    position: relative;
+
+.text {
+
+  border-radius: 5px;
+  position: absolute;
+  top: 10%;
+  /* Ajuste a posição vertical do texto */
+  left: 50%;
+  /* Ajuste a posição horizontal do texto */
+  transform: translate(-50%, -50%);
+  /* Centralize o texto horizontal e verticalmente */
+  color: white;
+  /* Cor do texto */
+  font-size: 24px;
+  /* Tamanho da fonte do texto */
+  text-align: center;
+  /* Alinhamento do texto */
+  /* Adicione mais estilos conforme necessário */
+}
+
+.button {
+  position: absolute;
+  bottom: 20px;
+  /* Ajuste a posição vertical do botão */
+  left: 50%;
+  /* Ajuste a posição horizontal do botão */
+  transform: translateX(-50%);
+  /* Centralize o botão horizontalmente */
+  padding: 10px 20px;
+  /* Adicione preenchimento ao botão */
+  background-color: #FF3C45;
+  /* Cor de fundo do botão */
+  color: white;
+  /* Cor do texto do botão */
+  border: none;
+  /* Remova a borda do botão */
+  border-radius: 5px;
+  /* Adicione borda arredondada ao botão */
+  text-decoration: none;
+  /* Remova a decoração do texto do botão */
+  cursor: pointer;
+  /* Mude o cursor ao passar sobre o botão */
+  /* Adicione mais estilos conforme necessário */
+}
+@media (max-width: 800px ){
+  .title h1 {
+    font-size: x-large;
+    padding: 0 2%;
   }
   
-  .image {
-    width: 100%; /* Ajuste o tamanho da imagem conforme necessário */
-    height: auto; /* Ajuste o tamanho da imagem conforme necessário */
+  .icon {
+    margin: 0 2%;
+    width: 30px;
+    height: 30px;
   }
-  
-  .text {
-   
-    border-radius: 5px;
-    position: absolute;
-    top: 10%; /* Ajuste a posição vertical do texto */
-    left: 50%; /* Ajuste a posição horizontal do texto */
-    transform: translate(-50%, -50%); /* Centralize o texto horizontal e verticalmente */
-    color: white; /* Cor do texto */
-    font-size: 24px; /* Tamanho da fonte do texto */
-    text-align: center; /* Alinhamento do texto */
-    /* Adicione mais estilos conforme necessário */
-  }
-
-  .button {
-    position: absolute;
-    bottom: 20px; /* Ajuste a posição vertical do botão */
-    left: 50%; /* Ajuste a posição horizontal do botão */
-    transform: translateX(-50%); /* Centralize o botão horizontalmente */
-    padding: 10px 20px; /* Adicione preenchimento ao botão */
-    background-color: #FF3C45; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
-    border: none; /* Remova a borda do botão */
-    border-radius: 5px; /* Adicione borda arredondada ao botão */
-    text-decoration: none; /* Remova a decoração do texto do botão */
-    cursor: pointer; /* Mude o cursor ao passar sobre o botão */
-    /* Adicione mais estilos conforme necessário */
-  }
-
+}

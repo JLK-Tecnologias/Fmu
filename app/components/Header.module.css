@@ -135,15 +135,16 @@
     .nav {
         background-color: #E9E9E9;
         color: black;
-        position: fixed;
+        position: absolute;
         width: 100%;
         height: calc(100vh - 100px);
         flex-direction: column;
         align-self: center;
         align-items: center;
         justify-content: normal;
-        bottom: 0;
+        top: 100px;
         left: 0;
+        overflow: hidden !important;
     }
     .nav ul{
         flex-direction: column;
