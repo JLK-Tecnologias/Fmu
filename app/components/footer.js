@@ -28,9 +28,9 @@ export default function Footer() {
             <div>
               <h3>REDE SOCIAIS</h3>
               <div>
-                <a href=""><Image src={IconWhats} alt='' className={styles.icon}/></a>
-                <a href="https://www.facebook.com/fmu/"><Image src={IconFace} alt='' className={styles.icon}/></a>
-                <a href="https://www.instagram.com/fmu_oficial/"><Image src={IconInsta} alt='' className={styles.icon}/></a>
+                <a href="https://wa.me/5513996198792?text=Ol%C3%A1%2C%20Eu%20queria%20saber%20mais%20sobre%20as%20gradua%C3%A7%C3%B5es." target='blank'><Image src={IconWhats} alt='' className={styles.icon}/></a>
+                <a href="https://www.instagram.com/fmu_francodarocha/"  target='blank'><Image src={IconFace} alt='' className={styles.icon}/></a>
+                <a href="https://www.facebook.com/fmu.francodarocha/" target='blank'><Image src={IconInsta} alt='' className={styles.icon}/></a>
               </div>
             </div>
           </div>

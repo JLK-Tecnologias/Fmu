@@ -88,6 +88,8 @@
   /* Mude o cursor ao passar sobre o botão */
   /* Adicione mais estilos conforme necessário */
 }
+
+
 @media (max-width: 800px ){
   .title h1 {
     font-size: x-large;

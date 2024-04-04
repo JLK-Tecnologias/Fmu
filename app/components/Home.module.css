@@ -53,9 +53,11 @@
     background-color: #ff3c4615;
     outline: 1px solid red;
     margin: 150px 0 50px 0;
+    
 }
 .sub:hover{
     background-color: #ad000979;
+   
 }
 .icon{
     display: inline-block;

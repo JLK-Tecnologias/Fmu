@@ -8,6 +8,8 @@ import 'swiper/css/navigation';
 import Image from 'next/image';
 import Cravinhos from '@/public/cravinhos.png'
 import Container from './Container';
+
+
 export default function Location() {
   const swiperRef = useRef(null);
   const [currentSlide, setCurrentSlide] = useState(0);
