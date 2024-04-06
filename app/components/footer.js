@@ -7,6 +7,7 @@ import Container from './Container'
 import IconWhats from '../../public/whats.svg'
 import IconFace from '../../public/face.svg'
 import IconInsta from '../../public/insta.svg'
+
 export default function Footer() {
   return (
     <footer className={styles.footer} id='footer'>
