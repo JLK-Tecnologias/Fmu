@@ -114,7 +114,13 @@ export default function Wanted() {
               SAIBA MAIS
             </a>
           </SwiperSlide>
-
+          <SwiperSlide className={styles.SwiperSlide}>
+            <Image src={Tec} alt=""></Image>
+            <h1 className={styles.text}>Tecnologia</h1>
+            <a  className={styles.button} onClick={handlePopupToggle}>
+              SAIBA MAIS
+            </a>
+          </SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Eng} alt=""></Image>
             <h1 className={styles.text}>Engenharia Civil</h1>
