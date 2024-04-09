@@ -27,7 +27,8 @@ export default function Location() {
           <button className={currentSlide === 0 ? styles.active : ''} onClick={() => goToSlide(0)}>Cravinhos</button>
           <button className={currentSlide === 1 ? styles.active : ''} onClick={() => goToSlide(1)}>Mongagua</button>     
           <button className={currentSlide === 2 ? styles.active : ''} onClick={() => goToSlide(2)}>Peruibe</button>
-          <button className={currentSlide === 3 ? styles.active : ''} onClick={() => goToSlide(3)}>São Vicente</button>     
+          <button className={currentSlide === 3 ? styles.active : ''} onClick={() => goToSlide(3)}>São Vicente</button>
+          <button className={currentSlide === 4 ? styles.active : ''} onClick={() => goToSlide(4)}>Itanhaém</button>     
       </div>
       <Container>
         <div className={styles.box}>
@@ -38,22 +39,27 @@ export default function Location() {
           >
             <SwiperSlide className={styles.SwiperSlide}>
               <h1>Cravinhos - Sp</h1>
-              <a href="">Saiba Mais</a>
+              <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'>Saiba Mais</a>
               <Image src={Cravinhos} alt=''></Image>
             </SwiperSlide>
             <SwiperSlide className={styles.SwiperSlide}>
-              <h1>Mongagua - Sp</h1>
-              <a href="">Saiba Mais</a>
+              <h1>Mongaguá - Sp</h1>
+              <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'>Saiba Mais</a>
               <Image src={Cravinhos} alt=''></Image>
             </SwiperSlide>
             <SwiperSlide className={styles.SwiperSlide}>
-              <h1>Peruibe - Sp</h1>
-              <a href="">Saiba Mais</a>
+              <h1>Peruíbe - Sp</h1>
+              <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'>Saiba Mais</a>
               <Image src={Cravinhos} alt=''></Image>
             </SwiperSlide>
             <SwiperSlide className={styles.SwiperSlide}>
               <h1>São Vicente - Sp</h1>
-              <a href="">Saiba Mais</a>
+              <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'>Saiba Mais</a>
+              <Image src={Cravinhos} alt=''></Image>
+            </SwiperSlide>
+            <SwiperSlide className={styles.SwiperSlide}>
+              <h1>Itanhaém - Sp</h1>
+              <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'>Saiba Mais</a>
               <Image src={Cravinhos} alt=''></Image>
             </SwiperSlide>
           </Swiper>

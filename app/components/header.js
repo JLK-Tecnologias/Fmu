@@ -4,10 +4,16 @@ import styles from './Header.module.css'
 import Logo from '@/public/Logo.png'
 import Image from 'next/image'
 import classNames from 'classnames'
-
+import Popup from "./Popup";
 
 export default function Header() {
   const [open, setOpen] = useState(false)
+
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handlePopupToggle = () => {
+    setShowPopup(!showPopup);
+  };
 
 
   return (
@@ -22,8 +28,10 @@ export default function Header() {
             <li><a href="#location" onClick={()=>setOpen(!open)}>Polos</a></li>
             <li><a href="#footer" onClick={()=>setOpen(!open)}>Contato</a></li>
           </ul>
-          <a className={styles.sub}>Inscreva-se</a>
-        </nav>
+         <a className={styles.sub} onClick={handlePopupToggle} >INSCREVA-SE!</a>
+        </nav> 
+        
+        
 
         <div className={styles.mobilehamburguer}>
           <label className={styles.mobileIcon} htmlFor="check">
@@ -34,6 +42,7 @@ export default function Header() {
           </label>
         </div>
       </div>
+      {showPopup && <Popup handlePopupToggle={handlePopupToggle} />}
     </header>
   )
 }

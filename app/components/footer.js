@@ -19,17 +19,22 @@ export default function Footer() {
           </div>
           <div className={styles.box}>
             <div>
-              <h3>ENDEREÇO</h3>
-              <span>R. Basílio Fazzi, 64, Sala 01 - Companhia Fazenda Belém, Franco da Rocha - SP</span>
+              <h3>ENDEREÇOS</h3>
+              <span>São Vicente - SP</span> <br />
+              <span>Cravinhos - SP</span> <br />
+              <span>Mongaguá - SP</span> <br />
+              <span>Peruíbe - SP</span> <br />
+              <span>Itanhaém - SP</span>
+              
             </div>
             <div>
               <h3>CONTATO</h3>
-              <span>Tel: (11) 91705-4616 <br/>Email: franco1358.ead@fmu.br</span>
+              <span>Tel: (13) 99802-5801 </span>
             </div>
             <div>
               <h3>REDE SOCIAIS</h3>
               <div>
-                <a href="https://wa.me/5513996198792?text=Ol%C3%A1%2C%20Eu%20queria%20saber%20mais%20sobre%20as%20gradua%C3%A7%C3%B5es." target='blank'><Image src={IconWhats} alt='' className={styles.icon}/></a>
+                <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'><Image src={IconWhats} alt='' className={styles.icon}/></a>
                 <a href="https://www.instagram.com/fmu_francodarocha/"  target='blank'><Image src={IconFace} alt='' className={styles.icon}/></a>
                 <a href="https://www.facebook.com/fmu.francodarocha/" target='blank'><Image src={IconInsta} alt='' className={styles.icon}/></a>
               </div>

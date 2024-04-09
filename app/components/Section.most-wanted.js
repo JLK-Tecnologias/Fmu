@@ -6,7 +6,7 @@ import Adm from "@/public/Administração.png";
 import Tec from "@/public/Tecnologia.png";
 import Eng from "@/public/EngenhariaCivil.png";
 import Direto from "@/public/direito.png";
-import Enf from "@/public/enfermagem.png";
+import Ped from "@/public/Pedagogia.jpg";
 import Graduation from "@/public/graduation.png";
 import Student from "@/public/student.png";
 import Reading from "@/public/readingbook.png";
@@ -76,7 +76,7 @@ export default function Wanted() {
 
       <Container>
         <Swiper
-          initialSlide={1}
+          initialSlide={2}
           centeredSlides={true}
           ref={swiperRef}
           effect="coverflow"
@@ -111,35 +111,35 @@ export default function Wanted() {
             <Image src={Adm} alt=""></Image>
             <h1 className={styles.text}>Administração</h1>
             <a  className={styles.button} onClick={handlePopupToggle}>
-              SAIBA MAIS
+            INSCREVA-SE
             </a>
           </SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Tec} alt=""></Image>
             <h1 className={styles.text}>Tecnologia</h1>
             <a  className={styles.button} onClick={handlePopupToggle}>
-              SAIBA MAIS
+            INSCREVA-SE
             </a>
           </SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Eng} alt=""></Image>
-            <h1 className={styles.text}>Engenharia Civil</h1>
+            <h1 className={styles.text}>Engenharias</h1>
             <a  className={styles.button} onClick={handlePopupToggle}>
-              SAIBA MAIS
+            INSCREVA-SE
             </a>
           </SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Direto} alt=""></Image>
-            <h1 className={styles.text}>Direito</h1>
+            <h1 className={styles.text}>Educação fisíca</h1>
             <a className={styles.button} onClick={handlePopupToggle}>
-              SAIBA MAIS
+            INSCREVA-SE
             </a>
           </SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>
-            <Image src={Enf} alt=""></Image>
-            <h1 className={styles.text}>Enfermagem</h1>
+            <Image src={Ped} alt=""></Image>
+            <h1 className={styles.text}>Pedagogia</h1>
             <a className={styles.button} onClick={handlePopupToggle}>
-              SAIBA MAIS
+              INSCREVA-SE
             </a>
           </SwiperSlide>
         </Swiper>

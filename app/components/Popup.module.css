@@ -17,11 +17,12 @@
     font-size: 30px;
     margin-bottom: 25px;
     text-align: center;
-  
+    color: black;
+      
   }
   
   .popupContainer .popupContent a{
-  
+    color: black;
     display: block;
     font-size: 25px;
     padding-left: 25px;

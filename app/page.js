@@ -4,7 +4,7 @@ import Header from "./components/header";
 import Home from "./components/Section.home";
 import Wanted from "./components/Section.most-wanted";
 import Free from "./components/Section.free";
-import Study from "./components/Section.why-study";
+// import Study from "./components/Section.why-study";
 import Location from "./components/Section.location";
 
 
@@ -16,7 +16,7 @@ export default function Page() {
           <Home/>
           <Wanted/>
           <Free/>
-          <Study/>
+          {/* <Study/> */}
           <Location/>
       </main>
       <Footer></Footer>
