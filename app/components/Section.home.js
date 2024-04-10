@@ -21,9 +21,8 @@ export default function Home() {
     <section className={styles.Home} id='home'>
       <Container>
         <div className={styles.text}>
-          <h1>Expandindo horizontes com <br/>
-            educação a distância.</h1>
-          <span>Descubra novos caminhos para o sucesso com FMU EAD Polos.</span>
+          <h1>Faculdade 100% online para você estudar onde e quando quiser!</h1>
+          <span>Inscreva-se no botão abaixo:</span>
           <br/>
           <a className={styles.sub} onClick={handlePopupToggle} >INSCREVA-SE!</a>
           <br/>

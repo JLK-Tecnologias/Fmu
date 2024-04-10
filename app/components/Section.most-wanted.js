@@ -6,7 +6,7 @@ import Adm from "@/public/Administração.png";
 import Tec from "@/public/Tecnologia.png";
 import Eng from "@/public/EngenhariaCivil.png";
 import Direto from "@/public/direito.png";
-import Ped from "@/public/Pedagogia.jpg";
+import Ped from "@/public/Pedagogia.png";
 import Graduation from "@/public/graduation.png";
 import Student from "@/public/student.png";
 import Reading from "@/public/readingbook.png";

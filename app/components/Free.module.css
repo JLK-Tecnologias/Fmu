@@ -13,6 +13,7 @@
     font-weight: 400;
     font-size: 50px;
 }
+
 .curses{
     display: flex;
     width: 100%;
@@ -29,19 +30,31 @@
     background-color: #FF3C45;
     border-radius: 0px 100px 100px 0px;
 }
+
+.curses h3{
+    margin: 10px 0;
+    width: fit-content;
+    font-size: 15px;
+    color: white;
+    padding: 4px 50px;
+    font-weight: 600;
+    background-color: #ff3c46c5;
+    border-radius: 0px 100px 100px 0px;
+}
+
 .single{
     display: flex;
     flex-direction: column;
     width: 30%;
 }
-.single a{
+.single li{
     display: block;
     margin: 5px 0;
 }
-.single a:hover{
+/* .single li:hover{
     scale: 1.1;
     font-weight: 600;
-}
+} */
 @media (max-width: 1100px){
     .curses{
         flex-direction: column;
