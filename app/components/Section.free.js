@@ -133,7 +133,6 @@ export default function Free() {
               <li>SECRETARIADO EXECUTIVO</li>
             </ul>
 
-            
             {/* <a href="">○ ALFABETIZAÇÃO E LETRAMENTO</a>
             <a href="">○ APRENDIZAGEM E INOVAÇÃO</a>
             <a href="">○ BIG DATA E COMUNICAÇÃO</a>
@@ -151,6 +150,24 @@ export default function Free() {
             <a href="">○ MBA EM LOGÍSTICA EMPRESARIAL</a>
             <a href="">○ MBA EM SERVIÇOS DE SAÚDE</a>
             <a href="">○ MBA EM TENDÊNCIAS E INOVAÇÕES</a> */}
+          </div>
+        </div>
+        <div className={styles.curses}>
+          <div className={styles.single}>
+            <h1>Pós Graduação</h1>
+            <h3>Comunicação:</h3>
+            <ul>
+              <li>ASSESSORIA E GESTÃO DA COMUNICAÇÃO</li>
+              <li>BIG DATA E COMUNICAÇÃO</li>
+              <li>ESPECIALIZAÇÃO EM BIG DATA E MARKETING</li>
+              <li>PÓS-GRADUAÇÃO EM COMUNICAÇÃO E MARKETING</li>
+              <li>ESPECIALIZAÇÃO EM COMUNICAÇÃO E PRODUÇÃO DE MODA</li>
+              <li>ESPECIALIZAÇÃO EM COMUNICAÇÃO EM CRISES ORGANIZACIONAIS</li>
+              <li>ESPECIALIZAÇÃO EM COMUNICAÇÃO INSTITUCIONAL</li>
+              <li>ESPECIALIZAÇÃO EM COMUNICAÇÃO NAS ORGANIZAÇÕES</li>
+              <li>ESPECIALIZAÇÃO EM COMUNICAÇÃO, MARCAS E CONSUMO</li>
+              <li>ESPECIALIZAÇÃO EM EDUCOMUNICAÇÃO</li>
+            </ul>
           </div>
         </div>
       </Container>

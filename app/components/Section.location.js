@@ -7,6 +7,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import Image from 'next/image';
 import Cravinhos from '@/public/cravinhos.png'
+import Fmuimg1 from '@/public/Fmuimg1.png'
+import Fmuimg2 from '@/public/Fmuimg2.png'
+import Fmuimg3 from '@/public/Fmuimg3.png'
+import Fmuimg4 from '@/public/Fmuimg4.png'
+
 import Container from './Container';
 
 
@@ -40,27 +45,27 @@ export default function Location() {
             <SwiperSlide className={styles.SwiperSlide}>
               <h1>Cravinhos - Sp</h1>
               <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'>Saiba Mais</a>
-              <Image src={Cravinhos} alt=''></Image>
+              <Image src={Fmuimg1} alt=''></Image>
             </SwiperSlide>
             <SwiperSlide className={styles.SwiperSlide}>
               <h1>Mongaguá - Sp</h1>
               <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'>Saiba Mais</a>
-              <Image src={Cravinhos} alt=''></Image>
+              <Image src={Fmuimg2} alt=''></Image>
             </SwiperSlide>
             <SwiperSlide className={styles.SwiperSlide}>
               <h1>Peruíbe - Sp</h1>
               <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'>Saiba Mais</a>
-              <Image src={Cravinhos} alt=''></Image>
+              <Image src={Fmuimg3} alt=''></Image>
             </SwiperSlide>
             <SwiperSlide className={styles.SwiperSlide}>
               <h1>São Vicente - Sp</h1>
               <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'>Saiba Mais</a>
-              <Image src={Cravinhos} alt=''></Image>
+              <Image src={Fmuimg4} alt=''></Image>
             </SwiperSlide>
             <SwiperSlide className={styles.SwiperSlide}>
               <h1>Itanhaém - Sp</h1>
               <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'>Saiba Mais</a>
-              <Image src={Cravinhos} alt=''></Image>
+              <Image src={Fmuimg2} alt=''></Image>
             </SwiperSlide>
           </Swiper>
         </div>
