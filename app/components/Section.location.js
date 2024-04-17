@@ -5,12 +5,13 @@ import classNames from 'classnames';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
+
+import Fmuimg1 from '@/public/FmuImg1.png'
+import Fmuimg2 from '@/public/FmuImg2.png'
+import Fmuimg3 from '@/public/FmuImg3.png'
+import Fmuimg4 from '@/public/FmuImg4.png'
+
 import Image from 'next/image';
-import Cravinhos from '@/public/cravinhos.png'
-import Fmuimg1 from '@/public/Fmuimg1.png'
-import Fmuimg2 from '@/public/Fmuimg2.png'
-import Fmuimg3 from '@/public/Fmuimg3.png'
-import Fmuimg4 from '@/public/Fmuimg4.png'
 
 import Container from './Container';
 
