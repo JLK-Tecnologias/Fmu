@@ -11,6 +11,7 @@ import Graduation from "@/public/graduation.png";
 import Student from "@/public/student.png";
 import Reading from "@/public/readingbook.png";
 import Group from "@/public/group.png";
+import fisica from "@/public/educacaofisica.png"
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -138,6 +139,13 @@ export default function Wanted() {
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Ped} alt=""></Image>
             <h1 className={styles.text}>Pedagogia</h1>
+            <a className={styles.button} onClick={handlePopupToggle}>
+              INSCREVA-SE
+            </a>
+          </SwiperSlide>
+          <SwiperSlide className={styles.SwiperSlide}>
+            <Image src={fisica} alt=""></Image>
+            <h1 className={styles.text}>Educação Física</h1>
             <a className={styles.button} onClick={handlePopupToggle}>
               INSCREVA-SE
             </a>
