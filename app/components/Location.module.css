@@ -1,12 +1,87 @@
+.Container {
+  width: 100%;
+}
+
 .location {
-    width: 100%;
+  width: 100%;
+  background-color: cadetblue;
+}
+.location {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  padding: 0 4%;
+  padding-top: 10%;
+  background-image: url("../../public/especialista.jpg");
+  background-attachment: fixed; /* Adiciona o efeito de paralaxe */
+  background-position: center; /* Ajuste a posição da imagem */
+  background-size: cover; /* Garante que a imagem cubra todo o elemento */
+}
+
+.title {
+  background-color: #e9e9e9ae;
+  padding: 30px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.title h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
 }
 .nav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
 }
+.divh2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+/* .divh2 h2 {
+  background-color: #e9e9e9ae;
+  border-radius: 10px;
+  padding: 20px;
+} */
+
+.sub {
+  margin-top: 300px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  padding: 15px 40px;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: #808080b1; /* Cinza */
+  border: 3px solid #313131; /* Mesma cor do fundo para dar efeito de borda invisível */
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s; /* Transição suave */
+}
+
+.sub:hover {
+  background-color: #666666c3; /* Tom de cinza mais escuro ao passar o mouse */
+  border-color: #313131; /* Mesma cor do fundo para manter a borda invisível */
+}
+
+@media (max-width: 600px) {
+  .title h1 {
+    font-size: 25px;
+  }
+  .location {
+    height: 550px;
+  }
+  .sub {
+    padding: 10px 30px;
+  }
+ 
+}
+
+/* 
 .nav button{
     display: block;
     outline: none;  
@@ -42,7 +117,7 @@
     color: rgb(255, 255, 255);
     width: 100%;
     /* Center slide text vertically */
-    display: flex;
+/* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -53,8 +128,8 @@
     padding: 40px 0;
     padding-bottom: 400px;
     
-}
-.SwiperSlide a{
+} */
+/* .SwiperSlide a{
     display: block;
     width: max-content;
     padding: 14px 50px;
@@ -73,10 +148,10 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-   
-}
-@media (max-width:750px){
+    object-fit: cover; */
+
+/* }
+/* @media (max-width:750px){
     .nav{
         flex-wrap: wrap;
     }
@@ -89,4 +164,4 @@
     .SwiperSlide a{
         margin: 70px 0 50px 0;
     }
-}
+}  */

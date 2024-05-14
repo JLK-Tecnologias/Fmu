@@ -11,8 +11,7 @@ import Graduation from "@/public/graduation.png";
 import Student from "@/public/student.png";
 import Reading from "@/public/readingbook.png";
 import Group from "@/public/group.png";
-import fisica from "@/public/educacaofisica.png"
-
+import fisica from "@/public/educacaofisica.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -113,22 +112,22 @@ export default function Wanted() {
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Direto} alt=""></Image>
             <h1 className={styles.text}>Administração</h1>
-            <a  className={styles.button} onClick={handlePopupToggle}>
-            INSCREVA-SE
+            <a className={styles.button} onClick={handlePopupToggle}>
+              INSCREVA-SE
             </a>
           </SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Tec} alt=""></Image>
             <h1 className={styles.text}>Tecnologia</h1>
-            <a  className={styles.button} onClick={handlePopupToggle}>
-            INSCREVA-SE
+            <a className={styles.button} onClick={handlePopupToggle}>
+              INSCREVA-SE
             </a>
           </SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Eng} alt=""></Image>
             <h1 className={styles.text}>Engenharias</h1>
-            <a  className={styles.button} onClick={handlePopupToggle}>
-            INSCREVA-SE
+            <a className={styles.button} onClick={handlePopupToggle}>
+              INSCREVA-SE
             </a>
           </SwiperSlide>
           {/* <SwiperSlide className={styles.SwiperSlide}>
@@ -155,6 +154,31 @@ export default function Wanted() {
         </Swiper>
 
         {showPopup && <Popup handlePopupToggle={handlePopupToggle} />}
+
+        <div>
+          <div className={styles.divEscolha}>
+            <h2>
+              Escolha a sua cidade.
+              <br />
+              Lembrando que nossas atividades e provas são online, <br /> e você
+              não tem obrigatoriedade de comparecimento no polo.
+            </h2>
+          </div>
+          <div className={styles.nav}>
+            <a href="https://inscricoes.fmu.br?ag=545830182" target="_blank">
+              Cravinhos - SP
+            </a>
+            <a href="https://inscricoes.fmu.br?ag=377805459" target="_blank">
+              São Vicente - SP
+            </a>
+            <a href="https://inscricoes.fmu.br?ag=309117593" target="_blank">
+              Mongaguá - SP
+            </a>
+            <a href="https://inscricoes.fmu.br?ag=470467970" target="_blank">
+              Peruibe - SP
+            </a>
+          </div>
+        </div>
       </Container>
     </section>
   );
