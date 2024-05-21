@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
           <div className={styles.box}>
             <div>
-              <h3>ENDEREÇOS</h3>
+              {/* <h3>ENDEREÇOS</h3> */}
               <span>São Vicente - SP</span> <br />
               <span>Cravinhos - SP</span> <br />
               <span>Mongaguá - SP</span> <br />

@@ -154,15 +154,12 @@ export default function Wanted() {
         </Swiper>
 
         {/* {showPopup && <Popup handlePopupToggle={handlePopupToggle} />} */}
-
-        <div>
+      </Container>
+      <div>
           <div className={styles.divEscolha}>
-            <h2>
-              Escolha a sua cidade.
-              <br />
-              Lembrando que nossas atividades e provas são online, <br /> e você
-              não tem obrigatoriedade de comparecimento no polo.
-            </h2>
+            <h1>
+              Escolha a sua cidade e inscreva-se.
+            </h1>
           </div>
           <div className={styles.nav}>
             <a href="https://inscricoes.fmu.br?ag=545830182" target="_blank">
@@ -179,7 +176,6 @@ export default function Wanted() {
             </a>
           </div>
         </div>
-      </Container>
     </section>
   );
 }
