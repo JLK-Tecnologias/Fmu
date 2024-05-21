@@ -2,7 +2,8 @@ import React from 'react'
 import styles from './Footer.module.css'
 import Image from 'next/image'
 import Logo from '../../public/LogoLitoral.png'
-import QrLogo from '../../public/selo55anos_rodape.webp'
+import QrLogo from '../../public/qrcode.png'
+import LogoFooter from '../../public/LogoFooter.png'
 import Container from './Container'
 import IconWhats from '../../public/whats.svg'
 import IconFace from '../../public/face.svg'
@@ -14,8 +15,14 @@ export default function Footer() {
       <Container>
         <div className={styles.footerbox}>
           <div className={styles.logo}>
-            <Image src={Logo} alt='' className={styles.img} />
-            <Image src={QrLogo} alt='' className={styles.img}></Image>
+            <div className={styles.logodiv}>
+              <Image src={QrLogo} alt='' className={styles.img}></Image>
+              <Image src={LogoFooter} alt='' className={styles.img}></Image>
+            </div>
+          <div>
+            <Image src={Logo} alt='' className={styles.img_logo} />
+          </div>
+          
           </div>
           <div className={styles.box}>
             <div>

@@ -112,21 +112,21 @@ export default function Wanted() {
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Direto} alt=""></Image>
             <h1 className={styles.text}>Administração</h1>
-            <a className={styles.button} onClick={handlePopupToggle}>
+            <a className={styles.button} href="https://wa.me/5513996198792?text=Ol%C3%A1%2C+tudo+bem%3F+Queria+saber+mais+sobre+o+curso+de+Administração." target="_blank">
               INSCREVA-SE
             </a>
           </SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Tec} alt=""></Image>
             <h1 className={styles.text}>Tecnologia</h1>
-            <a className={styles.button} onClick={handlePopupToggle}>
+            <a className={styles.button} href="https://wa.me/5513996198792?text=Ol%C3%A1%2C+tudo+bem%3F+Queria+saber+mais+sobre+o+curso+de+Tecnologia." target="_blank">
               INSCREVA-SE
             </a>
           </SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Eng} alt=""></Image>
-            <h1 className={styles.text}>Engenharias</h1>
-            <a className={styles.button} onClick={handlePopupToggle}>
+            <h1 className={styles.text}>Engenharia</h1>
+            <a className={styles.button} href="https://wa.me/5513996198792?text=Ol%C3%A1%2C+tudo+bem%3F+Queria+saber+mais+sobre+o+curso+de+Engenharia." target="_blank">
               INSCREVA-SE
             </a>
           </SwiperSlide>
@@ -140,20 +140,20 @@ export default function Wanted() {
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={Ped} alt=""></Image>
             <h1 className={styles.text}>Pedagogia</h1>
-            <a className={styles.button} onClick={handlePopupToggle}>
+            <a className={styles.button} href="https://wa.me/5513996198792?text=Ol%C3%A1%2C+tudo+bem%3F+Queria+saber+mais+sobre+o+curso+de+Pedagogia." target="_blank">
               INSCREVA-SE
             </a>
           </SwiperSlide>
           <SwiperSlide className={styles.SwiperSlide}>
             <Image src={fisica} alt=""></Image>
             <h1 className={styles.text}>Educação Física</h1>
-            <a className={styles.button} onClick={handlePopupToggle}>
+            <a className={styles.button} href="https://wa.me/5513996198792?text=Ol%C3%A1%2C+tudo+bem%3F+Queria+saber+mais+sobre+o+curso+de+Educação+Física." target="_blank">
               INSCREVA-SE
             </a>
           </SwiperSlide>
         </Swiper>
 
-        {showPopup && <Popup handlePopupToggle={handlePopupToggle} />}
+        {/* {showPopup && <Popup handlePopupToggle={handlePopupToggle} />} */}
 
         <div>
           <div className={styles.divEscolha}>

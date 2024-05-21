@@ -4,9 +4,9 @@ import Container from "./Container";
 export default function Free() {
   return (
     <section className={styles.free} id="free">
-      <div className={styles.title}>
+      {/* <div className={styles.title}>
         <h1>Cursos disponíveis</h1>
-      </div>
+      </div> */}
       <Container>
         <div className={styles.curses}>
           <div className={styles.single}>
@@ -152,7 +152,7 @@ export default function Free() {
             <a href="">○ MBA EM TENDÊNCIAS E INOVAÇÕES</a> */}
           </div>
         </div>
-        <div className={styles.curses}>
+        {/* <div className={styles.curses}>
           <div className={styles.single}>
             <h1>Pós Graduação</h1>
             <h3>Comunicação:</h3>
@@ -169,7 +169,7 @@ export default function Free() {
               <li>ESPECIALIZAÇÃO EM EDUCOMUNICAÇÃO</li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </Container>
     </section>
   );

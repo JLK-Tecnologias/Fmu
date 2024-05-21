@@ -21,7 +21,7 @@
     padding: 40px 4%;
 }
 .curses h1{
-    margin: 30px 0;
+    margin-bottom: 20px;
     width: fit-content;
     font-size: 20px;
     color: white;
@@ -32,7 +32,7 @@
 }
 
 .curses h3{
-    margin: 10px 0;
+    margin: 10px 30px 10px 0px;
     width: fit-content;
     font-size: 15px;
     color: white;

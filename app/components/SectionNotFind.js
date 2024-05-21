@@ -3,9 +3,12 @@ import Container from "./Container";
 import Confuso from "@/public/Confuso.png";
 import Image from "next/image";
 import styles from "./NotFind.module.css";
+import Nota100 from '../../public/Nota100.png'
 
 export default function SectionNotFind() {
   return (
+    <div>
+    
     <Container>
       <section className={styles.Section}>
         <div>
@@ -24,7 +27,15 @@ export default function SectionNotFind() {
         <div className={styles.image}>
           <Image src={Confuso} alt="" loading="lazy"></Image>
         </div>
+        <div>
+        </div>
       </section>
+      
     </Container>
+    <div className={styles.imgmec}>
+      <Image src={Nota100} alt="" loading="lazy" className={styles.image} ></Image>
+    </div>
+    
+    </div>
   );
 }
