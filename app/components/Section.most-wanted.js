@@ -172,7 +172,7 @@ export default function Wanted() {
               Mongaguá - SP
             </a>
             <a href="https://inscricoes.fmu.br?ag=470467970" target="_blank">
-              Peruibe - SP
+                 Peruibe - SP   
             </a>
           </div>
         </div>
