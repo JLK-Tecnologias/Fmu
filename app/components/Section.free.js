@@ -53,8 +53,8 @@ export default function Free() {
               <li>MATEMÁTICA (LICENCIATURA)</li>
               <li>GEOGRAFIA</li>
               <li>HISTÓRIA</li>
-              <li>LETRAS U+002d INGLÊS</li>
-              <li>LETRAS U+002d PORTUGUÊS</li>
+              <li>LETRAS INGLÊS</li>
+              <li>LETRAS PORTUGUÊS</li>
               <li>PEDAGOGIA</li>
             </ul>
             <ul>

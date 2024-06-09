@@ -42,8 +42,8 @@ export default function Footer() {
               <h3>REDE SOCIAIS</h3>
               <div>
                 <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'><Image src={IconWhats} alt='' className={styles.icon}/></a>
-                <a href="https://www.instagram.com/fmu_francodarocha/"  target='blank'><Image src={IconFace} alt='' className={styles.icon}/></a>
-                <a href="https://www.facebook.com/fmu.francodarocha/" target='blank'><Image src={IconInsta} alt='' className={styles.icon}/></a>
+                <a href="https://www.facebook.com/share/9vTNcqYxLShMAVDS/?mibextid=qi2Omg"  target='blank'><Image src={IconFace} alt='' className={styles.icon}/></a>
+                <a href="https://www.instagram.com/fmupolos.ondalitoral/" target='blank'><Image src={IconInsta} alt='' className={styles.icon}/></a>
               </div>
             </div>
           </div>

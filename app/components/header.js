@@ -28,7 +28,7 @@ export default function Header() {
             <li><a href="#location" onClick={()=>setOpen(!open)}>Polos</a></li>
             <li><a href="#footer" onClick={()=>setOpen(!open)}>Contato</a></li>
           </ul>
-         <a className={styles.sub} href="https://wa.me/5513996198792?text=Ol%C3%A1%2C+Tudo+bem%3F+Estou+interessado+em+obter+mais+informa%C3%A7%C3%B5es+sobre+os+cursos+oferecidos+pela+faculdade.+Poderia+me+ajudar%3F+%F0%9F%8E%93" target="_blank">INSCREVA-SE!</a>
+         <a className={styles.sub} href="https://wa.me/5513998025801?text=Ol%C3%A1%2C+Tudo+bem%3F+Estou+interessado+em+obter+mais+informa%C3%A7%C3%B5es+sobre+os+cursos+oferecidos+pela+faculdade.+Poderia+me+ajudar%3F+%F0%9F%8E%93" target="_blank">INSCREVA-SE!</a>
         </nav> 
         
         

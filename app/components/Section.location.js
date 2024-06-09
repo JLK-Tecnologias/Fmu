@@ -85,7 +85,7 @@ export default function Location() {
           {/* <div className={styles.divh2}><h2>Clique no Botão abaixo:</h2></div> */}
           <div className={styles.nav}>
             
-            <a className={styles.sub} href="https://wa.me/5513996198792?text=Ol%C3%A1%2C+Quero+saber+mais+sobre+p%C3%B3s-Gradua%C3%A7%C3%A3o+e+MBA.">Saiba mais!</a>
+            <a className={styles.sub} href="https://wa.me/5513998025801?text=Ol%C3%A1%2C+Quero+saber+mais+sobre+p%C3%B3s-Gradua%C3%A7%C3%A3o+e+MBA."  target='_blank'>Saiba mais!</a>
           </div>
         </Container>
       </section>  

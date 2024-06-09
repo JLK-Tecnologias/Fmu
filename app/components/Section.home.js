@@ -24,12 +24,12 @@ export default function Home() {
           <h1>Faculdade 100% online para você estudar onde e quando quiser!</h1>
           <span>Inscreva-se no botão abaixo:</span>
           <br/>
-          <a className={styles.sub} href="https://wa.me/5513996198792?text=Ol%C3%A1%2C+Tudo+bem%3F+Estou+interessado+em+obter+mais+informa%C3%A7%C3%B5es+sobre+os+cursos+oferecidos+pela+faculdade.+Poderia+me+ajudar%3F+%F0%9F%8E%93" target="_blank">INSCREVA-SE!</a>
+          <a className={styles.sub} href="https://wa.me/5513998025801?text=Ol%C3%A1%2C+Tudo+bem%3F+Estou+interessado+em+obter+mais+informa%C3%A7%C3%B5es+sobre+os+cursos+oferecidos+pela+faculdade.+Poderia+me+ajudar%3F+%F0%9F%8E%93" target="_blank">INSCREVA-SE!</a>
           <br/>
           <div className={styles.socials}>
             <a href="https://api.whatsapp.com/send/?phone=5513998025801&text=Olá%2C+Eu+queria+saber+mais+sobre+as+graduações.&type=phone_number&app_absent=0" target='blank'><Image src={IconWhats} alt='' className={styles.icon}/></a>
-            <a href="https://www.instagram.com/fmu_francodarocha/"  target='blank'><Image src={IconFace} alt='' className={styles.icon}/></a>
-            <a href="https://www.facebook.com/fmu.francodarocha/" target='blank'><Image src={IconInsta} alt='' className={styles.icon}/></a>
+            <a href="https://www.facebook.com/share/9vTNcqYxLShMAVDS/?mibextid=qi2Omg"  target='blank'><Image src={IconFace} alt='' className={styles.icon}/></a>
+            <a href="https://www.instagram.com/fmupolos.ondalitoral/" target='blank'><Image src={IconInsta} alt='' className={styles.icon}/></a>
           </div>
         </div>
         {showPopup && <Popup handlePopupToggle={handlePopupToggle} />}

@@ -19,7 +19,7 @@ export default function SectionNotFind() {
           </div>
 
           <div>
-            <a href="https://wa.me/5513996198792?text=Ol%C3%A1%2C+n%C3%A3o+encontrei+o+curso+que+eu+estava+procurando.+Poderia+por+gentileza+me+ajudar%3F" className={styles.sub}>
+            <a href="https://wa.me/5513998025801?text=Ol%C3%A1%2C+n%C3%A3o+encontrei+o+curso+que+eu+estava+procurando.+Poderia+por+gentileza+me+ajudar%3F" target="_blank" className={styles.sub}>
               Clique aqui
             </a>
           </div>
